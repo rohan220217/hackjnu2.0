@@ -11,6 +11,12 @@
   box-sizing: border-box;
 }
 
+h3{
+  font-family: "good-times";
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 body {
   height: 100%; max-width: 100%;
   overflow-x: hidden;
@@ -44,7 +50,7 @@ body {
 .Front-header {
   font-family: "good-times";
   padding: 2%;
-  position: absolute;
+  /* position: absolute; */
 } 
 
 /* Bottom animation */
@@ -53,4 +59,12 @@ body {
     bottom:0;                         
     left:0;
     z-index: -9999;
+}
+
+/* utils */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
