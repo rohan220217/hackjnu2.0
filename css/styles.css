@@ -1,10 +1,10 @@
 @import "navBar.css";
 
-
 @font-face {
   font-family: "good-times";
   src: url("../assets/fonts/good_times.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -12,13 +12,27 @@
 }
 
 body {
-  background-image: linear-gradient(45deg, #272729, #120727);
+  height: 100%; max-width: 100%;
+  overflow-x: hidden;
+  display: block;
+  position: relative;
+  color: #212529;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  /* box-shadow: inset 0 0 2rem rgba(0, 0, 0, .5); */
 }
 
 /* header */
 .Front-header {
   font-family: "good-times";
   padding: 2%;
-  position: relative;
-}
+  position: absolute;
+} 
 
+/* Bottom animation */
+.bottom-animation{
+    position: absolute;  
+    bottom:0;                         
+    left:0;
+    z-index: -9999;
+}
