@@ -11,19 +11,13 @@
   box-sizing: border-box;
 }
 
-h3{
-  font-family: "good-times";
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
 body {
   height: 100%; max-width: 100%;
   overflow-x: hidden;
   display: block;
   position: relative;
-  color: #212529;
-  background-color: #fff;
+  color: white;
+  background-color: #212529;
   font-family: 'Montserrat', sans-serif;
   /* box-shadow: inset 0 0 2rem rgba(0, 0, 0, .5); */
 }
@@ -50,7 +44,7 @@ body {
 .Front-header {
   font-family: "good-times";
   padding: 2%;
-  /* position: absolute; */
+  position: absolute;
 } 
 
 /* Bottom animation */
@@ -66,5 +60,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
    
 }
+
+.timer-text{
+    font-family: "good-times";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 42px #00AEEFff;
+}
+  
+@media screen and (max-width: 600px) {
+    .timer-text{
+        font-size: 0.8rem;
+    }
+  }
