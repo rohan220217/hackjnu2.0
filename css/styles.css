@@ -70,20 +70,35 @@ body {
   transform: translate(0%, 0%) rotate(0deg);
 }
 
+/* Navbar nav */
+.navbar .collapse ul.navShow {
+  height: 90vh !important;
+  display: flex !important;
+}
+.navbar-nav {
+  text-align: center;
+}
 /* nav-item */
 .nav-item {
   text-shadow: rgb(192, 8, 242) 0px 0px 5px;
   transform: none;
 }
+.nav-link {
+  font-size: 100%;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: center;
   }
 }
-/*.navbar .collapse ul.navShow {
-  height: 90vh !important;
-  display: flex !important;
+@media (max-width: 992px) {
+  .nav-link {
+    margin: 2% auto;
+    font-size: 200%;
+  }
 }
+/* 
 .navbar .collapse ul.navHide {
   display: none;
 }
