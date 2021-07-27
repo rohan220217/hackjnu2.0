@@ -58,7 +58,11 @@
   }
   /* nav-item */
   .nav-item {
-    text-shadow: rgb(192, 8, 242) 0px 0px 5px;
+    text-shadow: #ED1996ff 0px 0px 5px;
+    transform: none;
+  }
+  .nav-item:hover{
+    text-shadow: #59C9F3ff 0px 0px 5px;
     transform: none;
   }
   .nav-link {
