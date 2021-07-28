@@ -62,9 +62,8 @@ body {
 /* utils */
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
-    padding-left: 50px;
    
 }
 
@@ -135,4 +134,14 @@ body {
   background: -webkit-linear-gradient(top left, #5BBEE3, #E940A4);
   background: -moz-linear-gradient(top left, #5BBEE3, #E940A4);
   background: linear-gradient(to bottom right, #5BBEE3, #E940A4);
+}
+
+.developer-title{
+  font-family: "ethnic";
+  margin-top: 30px;
+}
+.developer-subtitle{
+  /* font-family: "ethnic"; */
+  font-size: 1.5rem;
+  margin-top: 40px;
 }
