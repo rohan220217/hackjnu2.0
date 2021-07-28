@@ -150,3 +150,13 @@ body {
   font-size: 1.5rem;
   margin-top: 40px;
 }
+
+/* prize section */
+.prize h4 {
+  font-family: "ethnic";
+  font-size: 1.2rem;
+}
+.img-prize{
+  width: 280px;
+  height: 280px;
+}
