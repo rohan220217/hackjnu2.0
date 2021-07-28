@@ -78,4 +78,26 @@ body {
     .timer-text{
         font-size: 0.8rem;
     }
+}
+
+/* Topic heading with flickering effect */
+.topic-heading{
+  margin: 50px auto;
+  font-family: "good-times";
+  font-size: 2.5rem;
+  text-align: center;
+  animation: flicker 1.5s infinite alternate;   
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 70px #ED1996ff,
+      0 0 80px #ED1996ff,
+      0 0 90px #ED1996ff;
   }
+  20%, 24%, 55% {       
+    text-shadow: none;
+  }
+}
