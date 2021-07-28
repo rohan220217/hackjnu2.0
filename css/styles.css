@@ -136,3 +136,10 @@ body {
   background: -moz-linear-gradient(top left, #5BBEE3, #E940A4);
   background: linear-gradient(to bottom right, #5BBEE3, #E940A4);
 }
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  z-index: -99999;
+}
