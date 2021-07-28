@@ -19,3 +19,5 @@ const countdown = () => {
   document.querySelector(".second").innerHTML = textSecond;
 };
 setInterval(countdown, 1000);
+
+
