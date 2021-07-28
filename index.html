@@ -56,16 +56,24 @@
   <section style="height: 100%;">
     <div class="container">
       <div class="row">
-        <div class="col-md-12" align="center" style="margin-top: 100px;">
-          <div class="m-5" data-tilt>
-            <img width="500px" class="img-fluid" src="assets/img/logo.jpeg" alt="logo">
+        <div class="col-md-6"  style="margin-top: 120px;">
+          <div class="">
+            <img width="500px" class="img-fluid" src="assets/img/logo.jpeg" alt="logo" data-tilt data-tilt-glare="true"
+              data-tilt-scale="1.1">
+              <h1 class="developer-title">Developer <br> Hackathon 2021</h1>
+              <p class="developer-subtitle" >January 31, 2020. Jawaharlal Nehru University, <br> New Delhi - 110067</p>
           </div>
-          <div class="m-5">
+     
+          <div class="mt-5">
             <a href="#" class="btn btn-primary">
               <img height="30px" src="assets/img/dev.svg" alt="img">
               Apply with Devfolio
             </a>
           </div>
+         
+        </div>
+        <div class="col-md-6 " align="center" style="display: flex; padding-top: 100px;" >
+         
           <div class="flex">
             <div class="timer-text count-day me-5">
               <div>Days</div>
@@ -102,43 +110,64 @@
       <!-- Cards -->
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12 p-2">
-          <div class="card h-100 card-style-1" data-tilt >
-            <img src="assets/img/judges.svg" class="card-img-top" alt="..." style="height: 200px;" >
-            <div class="card-body" >
-              <div class="card-title card-t" id="judges">0</div>
-              <p class="card-text">Judges</p>
+          <div class="card h-100 card-style-2" data-tilt data-tilt-glare="true" data-tilt-scale="1.1"
+            style="transform-style: preserve-3d">
+            <div style="
+              transform: translateZ(25px) ;">
+              <img src="assets/img/judges.svg" class="card-img-top" alt="..." style="height: 200px;">
+              <div class="card-body">
+                <div class="card-title card-t number" id="judges">0</div>
+                <p class="card-text">Judges</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12  p-2">
-          <div class="card h-100 card-style-2" data-tilt>
-            <img src="assets/img/theme.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="card-title card-t" id="themes">0</div>
-              <p class="card-text">Themes</p>
+          <div class="card h-100 card-style-2" data-tilt data-tilt-glare="true" data-tilt-scale="1.1"
+            style="transform-style: preserve-3d">
+            <div style="
+            transform: translateZ(25px) ;">
+              <img src="assets/img/theme.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-title card-t number" id="themes">0</div>
+                <p class="card-text">Themes</p>
+              </div>
             </div>
+
           </div>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12  p-2 ">
-          <div class="card h-100 card-style-1 " data-tilt>
-            <img src="assets/img/team.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="card-title card-t" id="teams">0</div>
-              <p class="card-text">Teams</p>
+          <div class="card h-100 card-style-2" data-tilt data-tilt-glare="true" data-tilt-scale="1.1"
+            style="transform-style: preserve-3d">
+            <div style="
+              transform: translateZ(25px) ;">
+              <img src="assets/img/team.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="card-title card-t number" id="teams">0</div>
+                <p class="card-text">Teams</p>
+              </div>
             </div>
+
           </div>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12  p-2">
-          <div class="card h-100 card-style-2" data-tilt>
-            <img src="assets/img/price.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="card-title">Rs. <strong class="card-t" id="prizes">0</strong> Lakhs</div>
-              <p class="card-text">Prizes</p>
+          <div class="card h-100 card-style-2" data-tilt data-tilt-glare="true" data-tilt-scale="1.1"
+            style="transform-style: preserve-3d">
+            <div style="
+              transform: translateZ(25px) ;">
+
+              <img src="assets/img/price.svg" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <div class="card-title">Rs. <strong class="card-t number" id="prizes">0</strong> Lakhs</div>
+                <p class="card-text">Prizes</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
   </section>
 
   <!-- Javascript link -->
@@ -154,8 +183,15 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- https://github.com/gijsroge/tilt.js -->
+  <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
+
+
   <script src="./js/app.js"></script>
-  <script src="./js/tilts.js"></script>
+  <!-- <script src="./js/tilts.js"></script> -->
   <script src="./js/bottom_animation.js"></script>
   <script src="./js/digit_count.js"></script>
 	<script src="js/bubbles.js"></script>
