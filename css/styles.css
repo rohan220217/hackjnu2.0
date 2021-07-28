@@ -1,8 +1,8 @@
 @import "navBar.css";
 
 @font-face {
-  font-family: "good-times";
-  src: url("../assets/fonts/good_times.ttf");
+  font-family: 'ethnic';
+  src: url('../assets/fonts/EthnocentricRg-Regular\ 400.ttf');
 }
 
 * {
@@ -42,7 +42,7 @@ body {
 
 /* header */
 .Front-header {
-  font-family: "good-times";
+  font-family: "ethnic";
   padding: 2%;
   position: absolute;
 } 
@@ -65,7 +65,7 @@ body {
 }
 
 .timer-text{
-    font-family: "good-times";
+    font-family: "ethnic";
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -83,7 +83,7 @@ body {
 /* Topic heading with flickering effect */
 .topic-heading{
   margin: 50px auto;
-  font-family: "good-times";
+  font-family: "ethnic";
   font-size: 2.5rem;
   text-align: center;
   animation: flicker 1.5s infinite alternate;   
@@ -100,4 +100,18 @@ body {
   20%, 24%, 55% {       
     text-shadow: none;
   }
+}
+
+/* highlighted cards */
+.card-img-top {
+  height: 200px;
+}
+
+.card-t {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.card-body {
+  text-align: center;
+  color: black;
 }
