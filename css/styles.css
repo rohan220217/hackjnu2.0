@@ -1,12 +1,12 @@
 @import "navBar.css";
 
 @font-face {
-  font-family: 'ethnic';
-  src: url('../assets/fonts/EthnocentricRg-Regular\ 400.ttf');
+  font-family: "ethnic";
+  src: url("../assets/fonts/EthnocentricRg-Regular\ 400.ttf");
 }
 @font-face {
-  font-family: 'good_times';
-  src: url('../assets/fonts/good_times.ttf');
+  font-family: "good_times";
+  src: url("../assets/fonts/good_times.ttf");
 }
 
 * {
@@ -16,108 +16,113 @@
 }
 
 body {
-  height: 100%; max-width: 100%;
+  height: 100%;
+  max-width: 100%;
   overflow-x: hidden;
   display: block;
   position: relative;
   color: white;
   background-color: #292929;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /* box-shadow: inset 0 0 2rem rgba(0, 0, 0, .5); */
 }
 /* Scrollbar desgin */
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, rgba(237,25,150,1) 0%, rgba(254,254,254,1) 50%, rgba(0,174,239,1) 100%); 
-    border-radius: 10px;
-  }
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(237, 25, 150, 1) 0%, rgba(254, 254, 254, 1) 50%, rgba(0, 174, 239, 1) 100%);
+  border-radius: 10px;
+}
 
 /* header */
 .Front-header {
   font-family: "ethnic";
   padding: 2%;
   position: absolute;
-} 
+}
 
 /* Bottom animation */
-.bottom-animation{
-    position: absolute;  
-    bottom:0;                         
-    left:0;
-    z-index: -9999;
+.bottom-animation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -9999;
 }
 
 /* utils */
 .flex {
-    display: flex;
-    justify-content: baseline;
-    align-items: center;
-   
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
 }
 
-.timer-text{
-    font-family: "good_times";
-    font-size: 1.5rem;
-    color: white;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 7px #00AEEFff;
+.timer-text {
+  font-family: "good_times";
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 7px #00aeefff;
 }
-  
+
 @media screen and (max-width: 600px) {
-    .timer-text{
-        font-size: 0.8rem;
-    }
+  .timer-text {
+    font-size: 0.8rem;
+  }
 }
 
 /* Topic heading with flickering effect */
-.topic-heading-1{
+.topic-heading-1 {
   margin: 80px auto;
   font-family: "ethnic";
   font-size: 2rem;
   text-align: center;
-  animation: flicker-1 1.5s infinite alternate;   
+  animation: flicker-1 1.5s infinite alternate;
 }
-.topic-heading-2{
+.topic-heading-2 {
   margin: 80px auto;
   font-family: "ethnic";
   font-size: 2rem;
   text-align: center;
-  animation: flicker-2 1.5s infinite alternate;   
+  animation: flicker-2 1.5s infinite alternate;
 }
 @keyframes flicker-1 {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-    text-shadow:
-      0 0 4px #fff,
-      0 0 70px #ED1996ff,
-      0 0 80px #ED1996ff,
-      0 0 90px #ED1996ff;
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 70px #ed1996ff, 0 0 80px #ed1996ff, 0 0 90px #ed1996ff;
   }
-  20%, 24%, 55% {       
+  20%,
+  24%,
+  55% {
     text-shadow: none;
   }
 }
 @keyframes flicker-2 {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-    text-shadow:
-      0 0 4px #fff,
-      0 0 70px #00AEEFff,
-      0 0 80px #00AEEFff,
-      0 0 90px #00AEEFff;
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 70px #00aeefff, 0 0 80px #00aeefff, 0 0 90px #00aeefff;
   }
-  20%, 24%, 55% {       
+  20%,
+  24%,
+  55% {
     text-shadow: none;
   }
 }
@@ -140,12 +145,12 @@ body {
   text-align: center;
   color: white;
 }
-.card-text{
+.card-text {
   font-family: "good_times";
   font-size: 1rem;
   text-align: center;
 }
-.card-style-1{
+.card-style-1 {
   background: rgb(37, 37, 37);
   /* background: #E9088D; */
   /* background: -webkit-linear-gradient(top left, #E9088D, #03ADEC);
@@ -165,11 +170,11 @@ body {
   opacity: 0.7;
   z-index: -99999;
 }
-.developer-title{
+.developer-title {
   font-family: "good_times";
   margin-top: 30px;
 }
-.developer-subtitle{
+.developer-subtitle {
   /* font-family: "ethnic"; */
   font-size: 1.5rem;
   margin-top: 40px;
@@ -180,7 +185,104 @@ body {
   font-family: "good_times";
   font-size: 1.2rem;
 }
-.img-prize{
+.img-prize {
   width: 280px;
   height: 280px;
+}
+
+/* Themes section */
+.theme-box {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.front,
+.back {
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  backface-visibility: hidden;
+  text-align: center;
+  min-height: 280px;
+  height: auto;
+}
+
+.back {
+  /* background: #cedce7; */
+  background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.front::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  /* opacity: 0.6; */
+  background-color: #fff;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.theme-box:hover .front,
+.theme-box:hover .back {
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+.inner {
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+  perspective: inherit;
+  z-index: 2;
+}
+.inner img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.inner h4 {
+  margin-top: 1rem;
+  color: #007b5e;
+}
+
+.inner span {
+  /* font-size: 1rem; */
+  color: #999999;
+}
+
+.back .inner span {
+  color: white;
+}
+.theme-box .back {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.theme-box .front {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.theme-box:hover .back {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.theme-box:hover .front {
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
 }
