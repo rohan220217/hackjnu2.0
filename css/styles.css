@@ -186,8 +186,8 @@ body {
   font-size: 1.2rem;
 }
 .img-prize {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
 }
 
 /* Themes section */
@@ -289,4 +289,15 @@ body {
 .theme-box:hover .front {
   transform: rotateY(-180deg);
   transform-style: preserve-3d;
+}
+
+/* event-schedule */
+.timeline-heading h5 {
+  font-family: "good_times";
+}
+.timeline-body {
+  opacity: 0.8;
+}
+.timeline-title {
+  color: #59C9F3ff
 }
