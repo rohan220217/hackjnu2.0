@@ -211,7 +211,7 @@ body {
 
 .back {
   /* background: #cedce7; */
-  background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+  background: linear-gradient(45deg, rgb(37, 37, 37) 0%, #596a72 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -227,8 +227,7 @@ body {
   height: 100%;
   content: "";
   display: block;
-  /* opacity: 0.6; */
-  background-color: #fff;
+  background: rgb(37, 37, 37);
   backface-visibility: hidden;
   border-radius: 10px;
 }
@@ -256,12 +255,17 @@ body {
 }
 .inner h4 {
   margin-top: 1rem;
-  color: #007b5e;
+  color: #59C9F3ff;
+  font-family: "ethnic";
+  font-size: 1rem;
 }
+
 
 .inner span {
   /* font-size: 1rem; */
-  color: #999999;
+  color: white;
+  font-family: "good_times";
+  font-size: 0.8rem;
 }
 
 .back .inner span {
