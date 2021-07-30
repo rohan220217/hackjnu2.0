@@ -260,7 +260,6 @@ body {
   font-size: 1rem;
 }
 
-
 .inner span {
   /* font-size: 1rem; */
   color: white;
@@ -300,4 +299,62 @@ body {
 }
 .timeline-title {
   color: #59C9F3ff
+}
+
+/* Mentor and judges */
+.speaker-box {
+  background: linear-gradient(45deg, rgb(37, 37, 37) 0%, #596a72 100%);
+  width: fit-content;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.speaker-box .speaker-img {
+  border-radius: 50%;
+  margin: 1.25rem;
+  position: relative;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.speaker-box h3 {
+  margin-top: 15px;
+  font-weight: 500;
+}
+.speaker-box:hover .speaker-img {
+  transform: scale(0.9);
+}
+
+.speaker-box .img-box::before {
+  content: url("../assets/img/speech.svg");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: translate(100%, -150%) rotate(45deg);
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.speaker-box .img-box::after {
+  content: url("../assets/img/linkedin-chat.svg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transform: translate(-150%, 100%) rotate(-45deg);
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition-delay: -0.15s;
+}
+
+.speaker-box:hover .img-box::after,
+.speaker-box:hover .img-box::before{
+  opacity: 1;
+  transform: translate(0);
 }
