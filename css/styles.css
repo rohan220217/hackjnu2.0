@@ -357,3 +357,11 @@ body {
   opacity: 1;
   transform: translate(0);
 }
+
+/* sponsers */
+.img-sponsors {
+  width : 280px;
+}
+.img-sponsors-title {
+  width : 400px;
+}
