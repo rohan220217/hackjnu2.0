@@ -380,3 +380,19 @@ body {
 .accordion-button::after {
   background-color: pink;
 }
+
+/* footer */
+.img-brand {
+  height: 40px;
+  width: 40px;
+}
+.img-brand-sm {
+  height: 30px;
+  width: 30px;
+  
+}
+.foot-links a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
