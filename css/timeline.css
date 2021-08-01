@@ -222,7 +222,7 @@
 }
 .right_content .timeline-badge {
   background: #F140A9ff !important;
-  box-shadow: 0 0 100px 0px whitesmoke !important;
+  box-shadow: 0 0 50px 3px #F140A9ff !important;
 }
 .right_content .timeline-body {
   color:  #59C9F3ff !important;
