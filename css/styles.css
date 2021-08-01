@@ -75,7 +75,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .timer-text {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -395,4 +395,14 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 400;
+}
+.mentor-heading1{
+  color: #59C9F3ff;
+  font-family: "good_times";
+  font-size: 1rem;
+}
+.mentor-heading2{
+  color: #ed1996ff;
+  font-family: "good_times";
+  font-size: 1rem;
 }

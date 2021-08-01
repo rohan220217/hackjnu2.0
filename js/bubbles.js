@@ -10,7 +10,7 @@ for (let i = 0; i < numBalls; i++) {
     ball.classList.add("ball");
     ball.style.background = colors[Math.floor(Math.random() * colors.length)];
     ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-    ball.style.top = `${Math.floor(Math.random() * 500)}vh`;
+    ball.style.top = `${Math.floor(Math.random() * 950)}vh`;
     ball.style.transform = `scale(${Math.random()})`;
     ball.style.width = `${Math.random()/2}em`;
     ball.style.height = ball.style.width;
