@@ -72,10 +72,24 @@ body {
   color: white;
   text-shadow: 0 0 7px #fff, 0 0 7px #00aeefff;
 }
+.timer-container{
+  display: flex; 
+  padding-top: 100px;
+}
+.image-container{
+  margin-top: 120px;
+}
 
 @media screen and (max-width: 600px) {
   .timer-text {
     font-size: 0.6rem;
+  }
+  .timer-container{
+    display: flex; 
+    padding-top: 20px;
+  }
+  .image-container{
+    margin-top: 70px;
   }
 }
 
