@@ -358,13 +358,33 @@ body {
   opacity: 1;
   transform: translate(0);
 }
+.mentor-heading1 {
+  color: #59c9f3ff;
+  font-family: "good_times";
+  font-size: 1rem;
+}
+.mentor-heading2 {
+  color: #ed1996ff;
+  font-family: "good_times";
+  font-size: 1rem;
+}
 
 /* sponsers */
 .img-sponsors {
-  width: 280px;
+  width : 280px;
 }
 .img-sponsors-title {
-  width: 400px;
+  width : 400px;
+}
+.img-bugsee {
+  width: 180px;
+  height: 160px;
+}
+.card-sponsors h2{
+  font-family: "good_times";
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 1.9px
 }
 
 /* Accordian */
@@ -407,28 +427,17 @@ body {
 .panel-body {
   padding: 0 2rem 2rem;
 }
-
 /* footer */
 .img-brand {
-  height: 40px;
-  width: 40px;
-}
-.img-brand-sm {
   height: 30px;
   width: 30px;
 }
-.foot-links a {
+.img-brand-sm {
+  height: 18px;
+  width: 18px;
+}
+.foot-links a{
   text-decoration: none;
   color: white;
   font-weight: 400;
-}
-.mentor-heading1 {
-  color: #59c9f3ff;
-  font-family: "good_times";
-  font-size: 1rem;
-}
-.mentor-heading2 {
-  color: #ed1996ff;
-  font-family: "good_times";
-  font-size: 1rem;
 }
