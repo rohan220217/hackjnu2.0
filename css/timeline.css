@@ -208,20 +208,20 @@
   }
 }
 .left_content .timeline-title {
-  color: #F140A9ff!important;
+  color: #59C9F3ff!important;
 }
 .left_content .timeline-badge {
-  background:white !important;
+  background: #F140A9ff !important;
   box-shadow: 0 0 100px 0px whitesmoke !important;
 }
 .left_content .timeline-body {
-   color: #F140A9ff !important;
+   color: #59C9F3ff  !important;
 }
 .right_content .timeline-title {
   color:  #59C9F3ff !important;
 }
 .right_content .timeline-badge {
-  background:white !important;
+  background: #F140A9ff !important;
   box-shadow: 0 0 100px 0px whitesmoke !important;
 }
 .right_content .timeline-body {
