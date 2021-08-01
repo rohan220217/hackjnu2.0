@@ -255,7 +255,7 @@ body {
 }
 .inner h4 {
   margin-top: 1rem;
-  color: #59C9F3ff;
+  color: #59c9f3ff;
   font-family: "ethnic";
   font-size: 1rem;
 }
@@ -298,7 +298,7 @@ body {
   opacity: 0.8;
 }
 .timeline-title {
-  color: #59C9F3ff
+  color: #59c9f3ff;
 }
 
 /* Mentor and judges */
@@ -354,31 +354,58 @@ body {
 }
 
 .speaker-box:hover .img-box::after,
-.speaker-box:hover .img-box::before{
+.speaker-box:hover .img-box::before {
   opacity: 1;
   transform: translate(0);
 }
 
 /* sponsers */
 .img-sponsors {
-  width : 280px;
+  width: 280px;
 }
 .img-sponsors-title {
-  width : 400px;
+  width: 400px;
 }
 
 /* Accordian */
-.accordion-flush .accordion-item .accordion-button, .accordion-body{
-  background-color: #292929;
-  border-bottom: 1px solid pink;
-  color: #59C9F3ff;
+.panel-group .panel {
+  border: 1px solid #5e25478a;
+  border-radius: 5px;
+  margin: 1em 0;
+  background: rgb(37, 37, 37);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 25%);
+  transform-style: preserve-3d;
 }
-.accordion-flush .accordion-item .accordion-button:focus {
+
+.panel-heading a {
+  display: inline-block;
+  font-family: "ethnic";
+  color: #59c9f3ff;
+  text-decoration: none;
+  border: none;
   outline: none;
-  box-shadow: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  padding: 2rem 5rem 2rem 2rem;
+  position: relative;
+  transition: 0.15s all ease-in-out;
 }
-.accordion-button::after {
-  background-color: pink;
+
+.panel-heading a::after {
+  content: "+";
+  position: absolute;
+  top: 30%;
+  right: 2rem;
+  font-size: 1.5rem;
+}
+/* .panel-heading a::after {
+  content: "-";
+  top: 28%;
+  right: 2rem;
+} */
+.panel-body {
+  padding: 0 2rem 2rem;
 }
 
 /* footer */
@@ -389,19 +416,18 @@ body {
 .img-brand-sm {
   height: 30px;
   width: 30px;
-  
 }
-.foot-links a{
+.foot-links a {
   text-decoration: none;
   color: white;
   font-weight: 400;
 }
-.mentor-heading1{
-  color: #59C9F3ff;
+.mentor-heading1 {
+  color: #59c9f3ff;
   font-family: "good_times";
   font-size: 1rem;
 }
-.mentor-heading2{
+.mentor-heading2 {
   color: #ed1996ff;
   font-family: "good_times";
   font-size: 1rem;
