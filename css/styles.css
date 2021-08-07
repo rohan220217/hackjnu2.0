@@ -384,15 +384,12 @@ body {
 }
 
 /* sponsers */
-.img-sponsors {
-  width : 280px;
+.cfc-image{
+  height: 200px;
+  width: 230px;
 }
 .img-sponsors-title {
   width : 400px;
-}
-.img-bugsee {
-  width: 180px;
-  height: 160px;
 }
 .card-sponsors h2{
   font-family: "good_times";
