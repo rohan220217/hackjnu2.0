@@ -51,6 +51,17 @@ body {
   position: absolute;
 }
 
+/* btn-primary */
+.btn-primary, .btn-primary:hover {
+  background: #FFF;
+  color: #273339ff;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-primary:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
 /* Bottom animation */
 .bottom-animation {
   position: absolute;
